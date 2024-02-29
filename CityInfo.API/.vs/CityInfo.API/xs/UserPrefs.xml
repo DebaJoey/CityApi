@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{328B3CC8-94E8-4DB0-992B-6396F50B45FF}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CityInfo.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/PointOfInterestController.cs">
+    <Files>
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="Program.cs" Line="7" Column="1" />
+      <File FileName="appsettings.json" />
+      <File FileName="CitiesDataStore.cs" />
+      <File FileName="Models/PointOfInterestForCreationDto.cs" />
+      <File FileName="Controllers/PointOfInterestController.cs" Line="189" Column="32" />
+      <File FileName="Models/PointOfInterestForUpdateDto.cs" Line="13" Column="49" />
+      <File FileName="Models/CityDto.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CityInfo.API" expanded="True">
+            <Node name="CityInfo.API" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="PointOfInterestController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
