@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HjgO1RP4A0k4jGFJNOL8k+dJCqG00e71q8sNsJ6xA7Fjc9kV5QXIlGIjEc0QwWVhrMuSazEQVQgbs/YVsP7ALQ==",
+  "dgSpecHash": "Vint9h8F6CTWvcic0MAxKjlm9I02zw9fvA2MnjwEn5X/20ufjV76CutjZwtN6IEmKUlVacVwT3Kvwf7yD0sARg==",
   "success": true,
   "projectFilePath": "/Users/macbook/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/macbook/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.0/microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.1/microsoft.aspnetcore.jsonpatch.6.0.1.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.1/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.1.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.aspnetcore.mvc.versioning/5.1.0/microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.data.sqlite.core/6.0.0/microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
     "/Users/macbook/.nuget/packages/microsoft.entityframeworkcore/6.0.0/microsoft.entityframeworkcore.6.0.0.nupkg.sha512",

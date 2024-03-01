@@ -18,12 +18,18 @@ namespace CityInfo.API.Controllers
 
         private readonly IConfiguration _configuration;
 
+        /// <summary>
+        /// Requets body for authentication
+        /// </summary>
         public class AuthenticationRequestBody
         {
             public string? UserName { get; set; }
             public string? Password { get; set; }
         }
 
+        /// <summary>
+        /// Represents a user in the city information system.
+        /// </summary>
         private class CityInfoUser
         {
             public int UserId { get; set; }
@@ -37,6 +43,14 @@ namespace CityInfo.API.Controllers
             public string City { get; set; }
 
 
+            /// <summary>
+            /// Initializes a new instance of the <see cref="CityInfoUser"/> class.
+            /// </summary>
+            /// <param name="userId">The unique identifier of the user.</param>
+            /// <param name="userName">The username of the user.</param>
+            /// <param name="firstName">The first name of the user.</param>
+            /// <param name="lastName">The last name of the user.</param>
+            /// <param name="city">The city where the user resides.</param>
             public CityInfoUser(
                 int userId,
                 string userName,
@@ -58,6 +72,11 @@ namespace CityInfo.API.Controllers
                 throw new ArgumentNullException(nameof(configuration));
         }
 
+        /// <summary>
+        /// Authenticates a user based on the provided credentials and generates a JWT token upon successful authentication.
+        /// </summary>
+        /// <param name="authenticationRequestBody">The authentication request body containing the username and password.</param>
+        /// <returns>An HTTP response containing a JWT token upon successful authentication.</returns>
         [HttpPost("authenticate")]
 
         public ActionResult<string> Authenticate(
@@ -106,6 +125,8 @@ namespace CityInfo.API.Controllers
 
         private CityInfoUser ValidateUserCredentials(string? userName, string? password)
         {
+
+            //This is for demonstartion purposes so this dummy user is returned
             return new CityInfoUser(
                 1,
                 userName ?? "",

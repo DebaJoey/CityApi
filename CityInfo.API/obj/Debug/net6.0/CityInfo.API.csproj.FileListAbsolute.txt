@@ -96,3 +96,5 @@
 /Users/macbook/Projects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/macbook/Projects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
 /Users/macbook/Projects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/macbook/Projects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.Versioning.dll
+/Users/macbook/Projects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/CityInfo.API.xml
